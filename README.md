@@ -7,7 +7,7 @@ There are **two main projects** in this repository.
 
 ---
 
-## Project 1 – Empty Dataset Generation (MVP)
+## Project 1 – Empty Dataset Generation 
 
 **Project 1** generates the **folder structure and empty files** for WGS and Imaging datasets.  
 This is useful for testing workflows, pipelines, and directory layouts without large data files.
@@ -33,7 +33,7 @@ All files are empty and named according to the sample ID.
 **Project 2** generates **non-empty binary files** that mimic real WGS and Imaging datasets.  
 The files vary in size to better represent realistic data volumes.
 
-### File size distribution per sample
+### File size distribution per number of sample
 - **25%** in KB  
 - **50%** in **1–9 MB**  
 - **25%** in **10–30 MB**
