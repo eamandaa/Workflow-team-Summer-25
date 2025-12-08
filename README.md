@@ -58,7 +58,7 @@ Because of the larger file sizes, outputs are **zipped** for easier transport an
   - Processed
   - Summarised folders
 
- #### PatientIDs and SampleIDS mapping 
+ #### PatientIDs and SampleIDs mapping 
 - **1 CSV file** mapping:
   - `sample_id`
   - `patient_id`
