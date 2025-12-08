@@ -51,15 +51,14 @@ Because of the larger file sizes, outputs are **zipped** for easier transport an
   - Raw
   - Processed
   - Summarised folders
-- **1 CSV file** mapping:
-  - `sample_id`
-  - `patient_id`
 
 #### WGS
 - **1 ZIP file** containing:
   - Raw
   - Processed
   - Summarised folders
+
+ #### PatientIDs and SampleIDS mapping 
 - **1 CSV file** mapping:
   - `sample_id`
   - `patient_id`
@@ -71,14 +70,12 @@ Because of the larger file sizes, outputs are **zipped** for easier transport an
 All notebooks are **independent**.
 
 1. Choose the **project**:
-   - Project 1 (empty files)
-   - Project 2 (non-empty binary files)
+   - Project 1 (empty files) 
+    Choose if you would like to generate the WGS or Imaging dataset.
+   - Project 2 (non-empty binary files). 
+    The notebook will generate the WGS and Imaging dataset at the same time.
 
-2. Choose the **dataset**:
-   - WGS
-   - Imaging
-
-3. Run **only the notebook you need**.
+2. Run **only the notebook you need**.
 
 No other notebooks are required to be run beforehand.
 
