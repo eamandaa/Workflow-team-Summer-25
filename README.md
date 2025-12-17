@@ -67,7 +67,7 @@ Because of the larger file sizes, outputs are **zipped** for easier transport an
 
 ## How to Run
 
-All notebooks are **independent**.
+All notebooks are **independent**, so no other notebooks are required to be run beforehand.
 
 1. Choose the **project**:
    - Project 1 (empty files) 
@@ -76,8 +76,6 @@ All notebooks are **independent**.
     The notebook will generate the WGS and Imaging dataset at the same time.
 
 2. Run **only the notebook you need**.
-
-No other notebooks are required to be run beforehand.
 
 ---
 
