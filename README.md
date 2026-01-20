@@ -77,15 +77,20 @@ All notebooks are **independent**, so no other notebooks are required to be run 
    - Project 2 (non-empty binary files). 
     The notebook will generate the WGS and Imaging dataset at the same time.
 
-2. Run **only the notebook you need**.
+2. Run **pip install -r requirements.txt** before running Project 2 Notebook. 
+Project 1 does not have a requirements.txt
 
-### Python Script - Running the script from the terminal
+3. Run **only the notebook you need**.
+
+### Python Script - Running the script from the terminal for Project 2
 
 #### Prerequisites
 - WSL Ubuntu (or any Linux environment)
 - Python 3 installed
 
-Run the script using:
+1.  Run **pip install -r requirements.txt** to install all libraries needed.
+
+2. Run the script using:
 python3 Project_2.py
 
 ---

@@ -118,7 +118,6 @@ print("WGS and Imaging datasets generated successfully")
 #Create a csv file to map the patientid to the sampleid
 import csv
 
-num_samples = 200
 output_csv = "patient_sample_mapping.csv"
 
 with open(output_csv, "w", newline="") as f:
